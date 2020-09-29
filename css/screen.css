@@ -1,12 +1,39 @@
 
 /* For both small and big screens */
-img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
+div.gallery {
+  border: 1px solid #ccc;
 }
-input[type=text], select, textarea {
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+input[type=text] {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -17,9 +44,6 @@ input[type=text], select, textarea {
   resize: vertical
 }
 
-textarea {
-  height:200px;
-}
 input[type=submit] {
   background-color: #663399;
   color: white;
@@ -39,7 +63,7 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
-@media screen and (min-width: 480px) {
+@media only screen and (min-width: 480px) {
   body {
       background-color: #f5fffa;
     }
@@ -49,10 +73,13 @@ input[type=submit]:hover {
   input[type=submit]{
         width: 30%
     }
+  .responsive {
+      width: 100%;
+    }
 
   }
 
-@media screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) {
   body {
       background-color: #f5fffa;
     }
@@ -61,5 +88,9 @@ input[type=submit]:hover {
      }
   input[type=submit]{
       width: 20%
+  }
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
   }
     }

@@ -80,6 +80,7 @@ h1,h2{
     }
   .responsive {
       width: 100%;
+      height: auto;
     }
 
   }
@@ -98,6 +99,7 @@ h1,h2{
       display:flex ;
       margin-left: auto;
       margin-right: auto;
+      height: auto;
 
 }
 

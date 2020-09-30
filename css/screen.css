@@ -56,9 +56,11 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #800080;
 }
+
 h1,h2{
-  padding: 15px;
-  text-align: center;
+padding: 10px;
+text-align: center;
+
 }
 
 .main {

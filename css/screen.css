@@ -51,7 +51,7 @@ input[type=text] {
 }
 
 input[type=submit] {
-  background-color:tomato;
+  background-color:red;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -60,7 +60,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: red;
+  background-color:#8B0000;
 }
 
 h1,h2{

@@ -51,7 +51,7 @@ input[type=text] {
 }
 
 input[type=submit] {
-  background-color: #663399;
+  background-color:tomato;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -60,7 +60,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #800080;
+  background-color: red;
 }
 
 h1,h2{
@@ -70,7 +70,7 @@ h1,h2{
 }
 
 h1{
-  text-decoration-color: red;
+  color: red;
   font-size: 40px;
 }
 h2{

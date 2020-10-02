@@ -5,6 +5,8 @@ body{
   font-family:serif;
   font-size: 16 px;
   color: #FFA500;
+
+
 }
 div.gallery {
   border: 1px solid #ccc;
@@ -83,16 +85,14 @@ h2{
 
 .main {
   border-radius: 6px;
-  background-color: #f5fffa;
-  padding: 20px;
+  background-color: #FFF5EE;
+  padding: 10px;
 
 }
 
 
 @media only screen and (min-width: 380px) {
-  body {
-      background-color: #f5fffa;
-    }
+
   input {
       width: 90%;
     }
@@ -107,9 +107,6 @@ h2{
   }
 
 @media only screen and (min-width: 992px) {
-  body {
-      background-color: #f5fffa;
-    }
   input {
       width: 70%;
      }

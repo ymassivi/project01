@@ -1,5 +1,10 @@
 
 /* For both small and big screens */
+body{
+  line-height: 1.2 em;
+  font-family: cursive;
+  font-size: 16 px;
+}
 div.gallery {
   border: 1px solid #ccc;
 }

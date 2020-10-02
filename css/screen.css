@@ -4,6 +4,7 @@ body{
   line-height: 1.2 em;
   font-family:serif;
   font-size: 16 px;
+  color: #FFA500;
 }
 div.gallery {
   border: 1px solid #ccc;

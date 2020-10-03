@@ -60,10 +60,12 @@ input[type=submit] {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+
 }
 
 input[type=submit]:hover {
   background-color:#8B0000;
+
 }
 
 h1,h2{
@@ -74,15 +76,12 @@ h1,h2{
 
 h1{
   color: red;
-  font-size: 40px;
-}
-h2{
-  font-size: 30px;
-
-
 
 }
 
+p{
+  color: black;
+}
 .main {
   border-radius: 6px;
   background-color: #FFF5EE;
@@ -91,27 +90,36 @@ h2{
 }
 
 
-@media only screen and (min-width: 380px) {
+@media screen and (min-width: 380px) {
 
   input {
       width: 90%;
+
     }
   input[type=submit]{
         width: 30%;
+
     }
   .responsive {
       width: 100%;
       height: auto;
     }
+    h1{
+      color: red;
+      font-size: 25.33px;
+    }
+    h2{
+      font-size: 20px;
 
   }
 
-@media only screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {
   input {
       width: 70%;
      }
   input[type=submit]{
       width: 20%;
+
   }
   .responsive {
       display:flex ;
@@ -120,5 +128,10 @@ h2{
 
 
 }
-
+  h1{
+    color: red;
+    font-size: 40px;
+}
+  h2{
+    font-size: 30px;
     }

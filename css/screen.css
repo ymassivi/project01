@@ -116,6 +116,9 @@ p{
       font-size: 16px;
 
   }
+  p{
+    font-size: 10px;
+  }
 
 @media screen and (min-width: 992px) {
   input {
@@ -138,4 +141,7 @@ p{
 }
   h2{
     font-size: 22px;
+    }
+    p{
+      font-size: 15px;
     }

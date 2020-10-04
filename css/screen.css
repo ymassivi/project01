@@ -83,6 +83,7 @@ h1{
 
 p{
   color: black;
+  font-size: 15px;
 }
 .main {
   border-radius: 6px;
@@ -108,7 +109,7 @@ p{
     }
     h1{
       color: red;
-      font-size: 24px;
+      font-size: 20px;
 
     }
     h2{

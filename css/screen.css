@@ -106,10 +106,11 @@ p{
     }
     h1{
       color: red;
-      font-size: 25.33px;
+      font-size: 16px;
+
     }
     h2{
-      font-size: 20px;
+      font-size: 10px;
 
   }
 
@@ -130,8 +131,8 @@ p{
 }
   h1{
     color: red;
-    font-size: 40px;
+    font-size: 30px;
 }
   h2{
-    font-size: 30px;
+    font-size: 15px;
     }

@@ -11,10 +11,7 @@ body{
 div.gallery {
   border: 1px solid #ccc;
   line-height: 1.2 em;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
+
 }
 
 div.gallery:hover {

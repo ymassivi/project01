@@ -1,16 +1,16 @@
 
 /* For both small and big screens */
 body{
-  line-height: 1.2 em;
+
   font-family:serif;
-  font-size: 16 px;
+
   color: #FFA500;
 
 
 }
 div.gallery {
   border: 1px solid #ccc;
-  line-height: 1.2 em;
+
 
 }
 
@@ -142,6 +142,7 @@ p{
   h2{
     font-size: 22px;
     }
-    p{
+  p{
       font-size: 15px;
     }
+}

@@ -1,15 +1,25 @@
-
+@import  url('https://fonts.googleapis.com/css2?family=Crimson+Pro&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /* For both small and big screens */
-body{
 
-  font-family:serif;
+  /*
+    Major Sixth Modular Scale:
+    http://www.modularscale.com/?22&px&1.667&web&text
+  */
 
-  color: #FFA500;
-
+  body {
+    line-height: 1.182em; /* 26px / ~ 120% */
+    padding: 1.182em; /* 26px / ~ 120% */
+    text-rendering: optimizeLegibility;
+    font-size: 20px;
+    font-family:Crimson, 'Roboto'serif;
+    color: #FFA500;
+  }
 
 }
 div.gallery {
   border: 1px solid #ccc;
+  padding: 10px ;
 
 
 }
@@ -21,6 +31,7 @@ div.gallery:hover {
 div.gallery img {
   width: 100%;
   height: auto;
+
 }
 
 div.desc {
@@ -28,21 +39,6 @@ div.desc {
   text-align: center;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 input[type=text] {
   width: 100%;
   padding: 12px;
@@ -52,6 +48,7 @@ input[type=text] {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical
+  text-align:center;
 }
 
 input[type=submit] {
@@ -83,9 +80,9 @@ h1{
 
 p{
   color: black;
-  font-size: 15px;
+  font-size: 10px;
 }
-.main {
+div.main {
   border-radius: 6px;
   background-color: #FFF5EE;
   padding: 10px;
@@ -93,56 +90,59 @@ p{
 }
 
 
-@media screen and (min-width: 380px) {
+@media screen and (min-width: 280px) {
 
   input {
       width: 90%;
-
+      padding: 10px;
     }
   input[type=submit]{
         width: 30%;
 
     }
-  .responsive {
-      width: 100%;
+  div.responsive {
+      width: 80%;
       height: auto;
+      display: inline;
     }
     h1{
       color: red;
       font-size: 20px;
-
     }
     h2{
       font-size: 16px;
+  }
 
-  }
-  p{
-    font-size: 10px;
-  }
-}
+
 @media screen and (min-width: 992px) {
+
+  div.responsive {
+      padding: 10px;
+      width: 80%;
+      display:flex;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+}
+  form{
+    width: 35%;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  }
   input {
       width: 70%;
      }
   input[type=submit]{
       width: 20%;
-
   }
-  .responsive {
-      display:flex ;
-      margin-left: auto;
-      margin-right: auto;
-}
-
-
   h1{
     color: red;
-    font-size: 32px;
+    font-size: 30px;
 }
   h2{
     font-size: 22px;
-    }
+}
   p{
-      font-size: 15px;
-  }
+      text-align: center;
 }

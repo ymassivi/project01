@@ -7,9 +7,9 @@
     http://www.modularscale.com/?22&px&1.667&web&text
   */
 
-  body {
+body {
     line-height: 1.182em; /* 26px / ~ 120% */
-    padding: 1.182em; /* 26px / ~ 120% */
+    padding: 1.182em; /* 26px / ~ 120%*/
     text-rendering: optimizeLegibility;
     font-size: 20px;
     font-family:Crimson, 'Roboto'serif;

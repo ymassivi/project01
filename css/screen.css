@@ -10,9 +10,9 @@
 body {
     line-height: 1.182em; /* 26px / ~ 120% */
     text-rendering: optimizeLegibility;
-    font-size: 20px;
+    font-size: 16px;
     font-family:Crimson, 'Roboto'serif;
-    color: #FFA500;
+    color: #DAA520;
   }
 
 }
@@ -74,6 +74,9 @@ h1,h2{
 
 h1{
   color: red;
+  background-color: #FFA500;
+
+
 
 }
 
@@ -83,7 +86,7 @@ p{
 }
 div.main {
   border-radius: 6px;
-  background-color: #FFF5EE;
+  background-color: lightgrey;
   padding: 10px;
 
 }
@@ -137,10 +140,10 @@ div.main {
   }
   h1{
     color: red;
-    font-size: 30px;
+    font-size: 25px;
 }
   h2{
-    font-size: 22px;
+    font-size: 20px;
 }
   p{
       text-align: center;

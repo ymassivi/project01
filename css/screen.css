@@ -40,7 +40,7 @@ input[type=text] {
   resize: vertical
   text-align:center;
 }
-input[type=submit] {
+  input[type=submit] {
   background-color:red;
   color: white;
   padding: 12px 20px;

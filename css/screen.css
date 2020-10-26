@@ -11,33 +11,24 @@ body {
     line-height: 1.182em; /* 26px / ~ 120% */
     text-rendering: optimizeLegibility;
     font-size: 16px;
-    font-family:Crimson, 'Roboto'serif;
+    font-family:Crimson, 'Roboto', sans-serif;
     color: #DAA520;
   }
-
-}
 div.gallery {
   border: 1px solid #ccc;
   padding: 10px ;
-
-
 }
-
 div.gallery:hover {
   border: 1px solid #777;
 }
-
 div.gallery img {
   width: 100%;
   height: auto;
-
 }
-
 div.desc {
   padding: 15px;
   text-align: center;
 }
-
 input[type=text] {
   width: 100%;
   padding: 12px;
@@ -49,7 +40,6 @@ input[type=text] {
   resize: vertical
   text-align:center;
 }
-
 input[type=submit] {
   background-color:red;
   color: white;
@@ -58,28 +48,19 @@ input[type=submit] {
   border-radius: 5px;
   cursor: pointer;
   margin: auto;
-
 }
-
 input[type=submit]:hover {
   background-color:#8B0000;
-
 }
-
 h1,h2{
   padding: 10px;
   text-align: center;
   font-weight: bold;
 }
-
 h1{
   color: red;
   background-color: #FFA500;
-
-
-
 }
-
 p{
   color: black;
   font-size: 10px;
@@ -88,19 +69,14 @@ div.main {
   border-radius: 6px;
   background-color: #D3D3D3;
   padding: 10px;
-
 }
-
-
 @media screen and (min-width: 280px) {
-
   input {
       width: 90%;
       padding: 10px;
     }
   input[type=submit]{
         width: 30%;
-
     }
   div.responsive {
       width: 80%;
@@ -114,10 +90,7 @@ div.main {
     h2{
       font-size: 16px;
   }
-
-
 @media screen and (min-width: 992px) {
-
   div.responsive {
       padding: 10px;
       width: 80%;
